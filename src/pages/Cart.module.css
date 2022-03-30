@@ -1,0 +1,53 @@
+.table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table_product {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    font-size: 1.1rem;
+}
+
+.table th {
+    font-size: 1.2rem;
+    background-color: #000;
+    color: #fff;
+}
+
+.table th, 
+.table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.table img {
+    width: 100px;
+}
+
+.table button {
+    border: none;
+    background-color: rgb(218, 55, 55);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.table button img {
+    width: 30px;
+    padding: 5px;
+}
+
+.total {
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+    float: right;
+    font-size: 1.4rem;
+    border-radius: 5px;
+}
